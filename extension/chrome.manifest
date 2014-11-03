@@ -1,0 +1,5 @@
+content   email_prioritization                 chrome/content/
+skin      email_prioritization   classic/1.0   chrome/skin/
+locale    email_prioritization   en-US         chrome/locale/en-US/
+overlay	chrome://browser/content/browser.xul	chrome://email_prioritization/content/ff-overlay.xul
+style	chrome://global/content/customizeToolbar.xul	chrome://email_prioritization/skin/overlay.css

@@ -1,0 +1,8 @@
+<!ENTITY email_prioritization.label "Your localized menuitem">
+<!ENTITY email_prioritizationContext.label "Your Menuitem">
+<!ENTITY email_prioritizationContext.accesskey "Y">
+<!ENTITY email_prioritizationToolbarButton.label "Your Toolbar Button">
+<!ENTITY email_prioritizationToolbarButton.tooltip "This is your toolbar button!">
+<!ENTITY email_prioritizationSidebar.label "Your Sidebar">
+<!ENTITY email_prioritizationToolbar.name  "example">
+<!ENTITY email_prioritizationToolbar.label "This is an example toolbar. You can hide it under View &gt; toolbars &gt; &email_prioritizationToolbar.name;">

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://email_prioritization/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://email_prioritization/locale/overlay.dtd">
+<overlay id="email_prioritization-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="ff-overlay.js"/>
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="email_prioritization-strings" src="chrome://email_prioritization/locale/overlay.properties"/>
+  </stringbundleset>
+  <toolbarpalette id="BrowserToolbarPalette">
+    <toolbarbutton id="email_prioritization-toolbar-button" class="toolbarbutton-1 chromeclass-toolbar-additional"
+                   label="&email_prioritizationToolbarButton.label;" tooltiptext="&email_prioritizationToolbarButton.tooltip;"
+                   oncommand="email_prioritization.onToolbarButtonCommand()"/>
+  </toolbarpalette>
+</overlay>
